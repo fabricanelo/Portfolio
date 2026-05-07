@@ -1,0 +1,55 @@
+$kind: http-request
+url: "{{dom}}/emoji?key={{key}}&token={{token}}"
+method: GET
+queryParams:
+  key: "{{key}}"
+  token: "{{token}}"
+scripts:
+  - type: afterResponse
+    code: "//Variables y constantes\r
+
+      \r
+
+      const elpanaJson = pm.response.json();\r
+
+      //\"dentro\" esta ligado al objeto que esta dentro del json\r
+
+      const dentro = elpanaJson.trello\r
+
+      \r
+
+      //Response Json\r
+
+      \r
+
+      pm.response.json();\r
+
+      \r
+
+      //Validacion de que el json es un objeto\r
+
+      \r
+
+      pm.test(\"Deberia ser un objeto\",()=>{\r
+
+      \    pm.expect(elpanaJson).to.be.an(\"object\")\r
+
+      });\r
+
+      \r
+
+      //Validacion de que el objeto (trello) dentro del json, es un array\r
+
+      \r
+
+      pm.test(\"Deberia ser un array\",()=>{\r
+
+      \    pm.expect(dentro).to.be.an(\"array\")\r
+
+      });\r
+
+      \r
+
+      console.log(dentro);"
+    language: text/javascript
+order: 1000

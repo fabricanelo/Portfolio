@@ -1,0 +1,13 @@
+workspace:
+  id: 9e5058c3-31cb-4bbb-8188-30bc89aeb675
+localResources:
+  collections:
+    - ..\Test suite - TrelloAPITesting.postman_collection.json
+    - ../postman/collections/Test suite - TrelloAPITesting
+  environments:
+    - ../postman/environments/Trello.environment.yaml
+cloudResources:
+  collections:
+    ../postman/collections/Test suite - TrelloAPITesting: 54436722-15d80254-ac66-4534-af07-b8d4a67fa7e7
+  environments:
+    ../postman/environments/Trello.environment.yaml: 54436722-9ceec5f5-325f-4135-ba72-daa088ed8f27

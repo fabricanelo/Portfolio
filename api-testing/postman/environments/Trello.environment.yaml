@@ -1,0 +1,18 @@
+owner: "54436722"
+team: "15566922"
+lastUpdatedBy: "54436722"
+lastRevision: 1778009644000
+name: Trello
+color: null
+values:
+  - key: key
+    value: key
+    enabled: true
+  - key: token
+    value: token
+    enabled: true
+  - key: dom
+    value: test
+    enabled: true
+createdAt: 2026-05-05T18:02:33.000Z
+updatedAt: 2026-05-05T19:34:04.000Z

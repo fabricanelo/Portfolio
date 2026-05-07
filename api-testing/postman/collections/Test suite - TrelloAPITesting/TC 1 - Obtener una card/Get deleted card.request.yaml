@@ -1,0 +1,54 @@
+$kind: http-request
+description: |-
+  This is a POST request, submitting data to an API via the request body. This request submits JSON data, and the data is reflected in the response.
+
+  A successful POST request typically returns a `200 OK` or `201 Created` response code.
+url: "{{dom}}/{{cards}}/:id?key={{key}}&token={{token}}"
+method: GET
+queryParams:
+  key: "{{key}}"
+  token: "{{token}}"
+pathVariables:
+  id: 69fcb996a161a237e529fbeb
+body:
+  type: json
+  content: ""
+auth:
+  type: noauth
+scripts:
+  - type: afterResponse
+    code: |-
+      //Se valida que el test de 404
+
+      pm.test("Deleted card", function () {
+          pm.response.to.have.status(404)
+      });
+
+      pm.test("Deleted card",()=>{
+          pm.response.to.have.status(404)
+      });
+
+      pm.test("Deleted card",()=>{
+          pm.response.to.have.status(404)
+      });
+      pm.test("Deleted card",()=>{
+          pm.response.to.have.status(404)
+      });
+
+      pm.test("Deleted Card",()=>{
+          pm.response.to.have.status(404)
+      });
+
+      pm.test("Deleted Card",()=>{
+          pm.response.to.have.status(404)
+      });
+
+      pm.test("Deleted Card",()=>{
+          pm.response.to.have.status(404)
+      });
+
+      pm.test("Deleted Card",()=>{
+          pm.response.to.have.status(404)
+      });
+    language: text/javascript
+order: 4000

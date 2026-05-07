@@ -1,0 +1,28 @@
+$kind: http-request
+description: |-
+  This is a POST request, submitting data to an API via the request body. This request submits JSON data, and the data is reflected in the response.
+
+  A successful POST request typically returns a `200 OK` or `201 Created` response code.
+url: "{{dom}}/{{cards}}/:id?key={{key}}&token={{token}}"
+method: DELETE
+queryParams:
+  key: "{{key}}"
+  token: "{{token}}"
+pathVariables:
+  id: 69fcb996a161a237e529fbeb
+body:
+  type: json
+  content: |-
+    {
+      "name": "Nueva Carta2",
+      "start": null,
+      "idList": "69fa389f5930895cf812c8e4"
+    }
+scripts:
+  - type: afterResponse
+    code: |
+      pm.test("La carta se elimina", ()=> {
+          pm.response.to.have.status(200);
+      });
+    language: text/javascript
+order: 3000
