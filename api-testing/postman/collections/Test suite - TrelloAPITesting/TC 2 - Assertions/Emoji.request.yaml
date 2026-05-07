@@ -1,4 +1,5 @@
 $kind: http-request
+name: Emoji
 url: "{{dom}}/emoji?key={{key}}&token={{token}}"
 method: GET
 queryParams:
@@ -16,7 +17,7 @@ scripts:
 
       const dentro = elpanaJson.trello\r
 
-      \r
+      const masDentro = elpanaJson.trello.[0]\r
 
       //Response Json\r
 
@@ -49,6 +50,16 @@ scripts:
       });\r
 
       \r
+
+      //Validacion de que el array sea un objeto\r
+
+      \r
+
+      pm.test(\"Deberia ser un array\",()=>{\r
+
+      \    pm.expect(masDentro).to.be.an(\"objeto\")\r
+
+      });\r
 
       console.log(dentro);"
     language: text/javascript
