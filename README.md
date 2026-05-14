@@ -1,75 +1,107 @@
-# Fabricio Canelo - QA Portfolio
+# Focus QA Portfolio
 
-Hi, I'm Fabricio 👋
-This repository showcases my work and learning journey in **Quality Assurance**, with a focus on test automation, API testing, and software quality.
+Portfolio focused on QA practices, exploratory testing, API testing and quality analysis for real-world products.
 
----
-
-## 🚀 About Me
-
-QA Engineer focused on continuously improving in:
-
-* Maual Testing
-* RST
-* Test Automation
-* API Testing
-* Software Quality Best Practices
-
-I currently work with tools like Playwright and Postman, and I’m actively expanding my technical testing skills.
+Built and maintained by Fabricio Canelo — Senior Manual QA Engineer & Founder of Focus QA.
 
 ---
 
-## 📁 Repository Structure
+## About
 
-### 🎭 Playwright
+This repository showcases QA-related work including:
 
-End-to-end (E2E) test automation for web applications.
+- QA Audits
+- Exploratory Testing
+- API Testing
+- Playwright Automation Practice
+- Test Documentation
+- Risk-Based Testing Approaches
+
+The objective is not only validating functionality, but also identifying issues that impact:
+- user experience
+- business flows
+- reliability
+- trust
+- product quality
+
+---
+
+## QA Audits
+
+Real-world audit examples focused on identifying production issues and business-impacting defects.
+
+### Current Audits
+
+- Cleanex Argentina QA Audit
 
 Includes:
-
-* Automated test cases
-* Playwright configuration
-* Testing best practices
-
----
-
-### 🔌 APIs *(in progress)*
-
-API testing using tools like Postman.
-
-Planned content:
-
-* Postman collections
-* Automated endpoint tests
-* Status code & response validation
-* Environment and variable handling
+- documented issues
+- severity analysis
+- business impact evaluation
+- visual evidence
+- exploratory testing findings
 
 ---
 
-## 🛠️ Tech Stack
+## API Testing
 
-* Playwright
-* Postman
-* JavaScript / TypeScript
-* Git & GitHub
+REST API testing practice using Postman.
 
----
+Current focus areas:
+- CRUD validations
+- authentication handling
+- response validation
+- environments & variables
+- negative scenarios
+- backend reliability testing
 
-## 🎯 Portfolio Goal
-
-This repository aims to demonstrate:
-
-* My growth as a QA Engineer
-* Real-world testing examples
-* Best practices in test automation
+This section continues expanding alongside ongoing backend and automation learning.
 
 ---
 
-## 📬 Contact
+## Playwright Automation
 
-* LinkedIn: *https://www.linkedin.com/in/fabricio-canelo-4a7700141/*
-* Email: *fabricioacanelo@gmail.com*
+Automation learning and experimentation using Playwright.
+
+Current focus:
+- UI automation
+- end-to-end flows
+- assertions
+- locators
+- navigation validation
+
+This section is actively evolving as part of ongoing automation skill development.
 
 ---
 
+## Testing Mindset
 
+Main QA principles applied across this portfolio:
+
+- Risk-Based Testing
+- Exploratory Testing
+- Business-Oriented QA
+- Clear Defect Communication
+- User-Centric Quality Analysis
+
+---
+
+## About Focus QA
+
+Focus QA is an independent QA initiative focused on helping products improve quality through:
+- real-world testing
+- exploratory analysis
+- process improvement
+- actionable reporting
+
+Tagline:
+
+> Quality that tells the truth.
+
+---
+
+## Contact
+
+- LinkedIn: Fabricio Canelo
+- Website: https://focus-qa.com
+- Email: hello@focus-qa.com
