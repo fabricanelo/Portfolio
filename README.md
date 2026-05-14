@@ -86,6 +86,13 @@ Main QA principles applied across this portfolio:
 
 ---
 
+## Projects
+
+- [Cleanex QA Audit](./Audits/Cleanex)
+- [API Testing](./api-testing)
+- [Playwright Automation](./Playwright)
+
+---
 ## About Focus QA
 
 Focus QA is an independent QA initiative focused on improving product quality through exploratory testing, risk-based analysis and clear, actionable reporting.
