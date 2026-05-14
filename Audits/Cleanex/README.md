@@ -36,7 +36,7 @@ The focus was not only to detect bugs, but to understand how each issue could af
 
 ## Deliverables
 
-- [QA Audit — Production Issues & Business Impact](./QA-Audit-Cleanex.pdf)
+- [QA Audit — Production Issues & Business Impact](.https://github.com/fabricanelo/Portfolio/blob/main/Audits/Cleanex/QA%20Audit%20-%20Cleanex.pdf)
 - Visual evidence stored in the `Evidence` folder
 
 ---
