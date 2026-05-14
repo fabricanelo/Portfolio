@@ -88,16 +88,18 @@ Main QA principles applied across this portfolio:
 
 ## About Focus QA
 
-Focus QA is an independent QA initiative focused on helping products improve quality through:
-- real-world testing
-- exploratory analysis
-- process improvement
-- actionable reporting
+Focus QA is an independent QA initiative focused on improving product quality through exploratory testing, risk-based analysis and clear, actionable reporting.
 
-Tagline:
+The objective is not only identifying bugs, but understanding how quality issues affect:
+- user experience
+- business flows
+- trust
+- reliability
+- overall product perception
+
+Focus QA combines technical validation with a business-oriented QA mindset to help products deliver more reliable and trustworthy user experiences.
 
 > Quality that tells the truth.
-
 ---
 
 ## Contact
